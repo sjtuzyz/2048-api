@@ -3,7 +3,7 @@ from game2048.displays import Display
 import sys
 
 TestPath = 'model2048.pkl'
-f = open('EE369.log', 'a')
+f = open('EE369_evaluation.log', 'a')
 
 
 def single_run(size, score_to_win, AgentClass, **kwargs):
